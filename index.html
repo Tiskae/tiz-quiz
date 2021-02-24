@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon">
+    <script src="questions.js" defer></script>
+    <script src="app.js" defer></script>
+    <title>Tiz-Quiz</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <header class="header">
+        <h1 class="heading-primary">Tiz-Quiz</h1>
+        <div class="menu-bar">
+          <span class="menu-bar__icon menu-bar__icon--1"></span>
+          <span class="menu-bar__icon menu-bar__icon--2"></span>
+          <span class="menu-bar__icon menu-bar__icon--3"></span>
+        </div>
+      </header>
+
+      <main id="main">
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-item change-theme">Dark theme</li>
+            <li class="menu-list-item change-name faded">Change Name</li>
+            <!-- <li class="menu-list-item next-audio">Next audio</li> -->
+            <li class="menu-list-item toggle-silent">Silent Mode(0ff)</li>
+            <li class="menu-list-item">
+              <a href="index.html">Restart game</a>
+            </li>
+          </ul>
+        </div>
+        <div class="message">
+          <h2 class="message__sender">Tiz-Quiz</h2>
+          <p class="message__content">
+            Welcome to <b>Tiz-Quiz</b>, send an
+            <em>&ldquo;<span>Hello</span>&rdquo;</em> to get started🙂
+          </p>
+        </div>
+        <!-- <div class="message message--right"> -->
+        <section class="certificate">
+          <p class="close-cert">close</p>
+          <h1 class="heading">Tiz-Quiz by Tiskae</h1>
+          <h2>
+            This is to certify that <span class="name">Name</span> completed
+            Tiz-Quiz and had a score of <span class="score">Score / 20</span>.
+          </h2>
+          <p class="signature">
+            Signed: <span><img src="signature.png" alt="Signature" /></span>
+          </p>
+          <p class="cert-foot">
+            Made with love♥ in Nigeria<br />&COPY;Copyright 2020
+            <br />+2348146264116<br />Adedokuntobiloba100@gmail.com
+          </p>
+          <p class="print-cert">Print</p>
+
+          <!-- <p class="cert__baloons cert__ballons--1">🎈🎊🎓</p>
+          <p class="cert__baloons cert__ballons--2">🎈🎊🎓</p>
+          <p class="cert__baloons cert__ballons--3">🎈🎊🎓</p> -->
+        </section>
+      </main>
+
+      <footer id="footer">
+        <input type="text" class="chat" placeholder="Type a message ..." />
+        <p class="send-message">&RightArrow;</p>
+      </footer>
+    </div>
+  </body>
+</html>
